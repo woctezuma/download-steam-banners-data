@@ -2,10 +2,11 @@
 
 ## Store banners
 
+This folder contains Steam store **banners** downloaded with the tool provided in my [`download-steam-banners`](https://github.com/woctezuma/download-steam-banners) repository (also available as [a Google Colab notebook][download_steam_banners]).
+[![Open In Colab][colab-badge]][download_steam_banners]
+
 ### Small horizontal banners (460x215)
 
-This folder contains Steam store **banners** downloaded with the tool provided in my [`download-steam-banners`](https://github.com/woctezuma/download-steam-banners) repository (also available as [a Google Colab notebook][download_steam_banners]):
-[![Open In Colab][colab-badge]][download_steam_banners]
 -   original images (460x215 resolution, with a few exceptions) in [`data/`](data/),
 -   resized images (128x128 resolution) in [`banners/128x128.zip`](https://drive.google.com/open?id=1YLhdwgnhyP-eC4gHOmTsmuiUSr0XN5XJ).
 
