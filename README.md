@@ -12,7 +12,7 @@ This folder contains Steam store **banners** downloaded with the tool provided i
 ### Large horizontal banners (616x353)
 
 As of February 2020, additional Steam banners are provided on Google Drive:
--   original horizontal images (natively 616x353 resolution) in [`original_horizontal_steam_banners.tar`](https://drive.google.com/open?id=1-0FrkH3X1Eji6bDbGNYRTo9_C4PIfqlb),
+-   original horizontal images (natively 616x353 resolution) in [`original_horizontal_steam_banners.tar`](https://drive.google.com/open?id=1-0FrkH3X1Eji6bDbGNYRTo9_C4PIfqlb).
 
 ### Vertical banners (300x450)
 
@@ -52,5 +52,5 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 
 [logos-google-drive]: <https://drive.google.com/drive/folders/1_xVdBziq3uIRx53x_s28G7TvTcM5skA1?usp=sharing>
 [logos-original]: <https://drive.google.com/file/d/1wNGQyx2rL-mPmPcF8LbbvbFmqH9Zl5RT/view?usp=sharing>
-[logos-original]: <https://drive.google.com/file/d/1wNfO2zYvn3u4DnobnE4JJDiQ_Of_Vwsb/view?usp=sharing>
+[logos-resized]: <https://drive.google.com/file/d/1wNfO2zYvn3u4DnobnE4JJDiQ_Of_Vwsb/view?usp=sharing>
 [transparent-images]: <https://github.com/lucidrains/stylegan2-pytorch#bonus>
