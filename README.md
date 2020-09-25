@@ -33,6 +33,7 @@ As of September 2020, a selection of logo images is shared [on Google Drive][log
 -   resized logo images (256x256 resolution, PNG files) in [`resized_steam_logos_256x256.tar.gz`][logos-resized].
 
 Initially, there are 25851 logos out of 45421 games, i.e. 57% of games.
+
 My selection of logo images include 21279 logos, i.e. 82% of logos, after removal of:
 -   4117 logos with uncommon resolution (anything but 640x360),
 -   455 blank or duplicate logos.
