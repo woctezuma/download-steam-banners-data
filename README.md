@@ -34,8 +34,10 @@ As of September 2020, a selection of logo images is shared [on Google Drive][log
 
 Initially, there are 25851 logos out of 45421 games, i.e. 57% of games.
 
-My selection of logo images include 21279 logos, i.e. 82% of logos, after removal of:
+My selection of logo images include 16133 logos, i.e. 62% of logos, after removal of:
+-   4420 logos with uncommon bands (anything but RGBA),
 -   4117 logos with uncommon resolution (anything but 640x360),
+-   726 logos with 100% image space used by content (inconsistent with a logo),
 -   455 blank or duplicate logos.
 
 **Caveat**: be careful if you use logos, as they are PNG files and feature [a transparent background][transparent-images].
