@@ -31,11 +31,11 @@ As of October 2020, I have filtered Steam banners ([provided on Google Drive][ba
 -   filtered vertical images (300x450 resolution, available for a subset of 14176 games) in [`filtered_vertical_steam_banners.tar`][banners-filtered],
 -   resized vertical images (256x256 resolution) in [`resized_vertical_steam_banners.tar`][banners-resized].
 
-Original vertical images were filtered based on logo filtering, detailed below.
-The assumption here is that apps which cound not be trusted for their logos should not be trusted for their vertical images.
-
 Filtering of duplicates, outliers, etc. was performed with [this Google Colab notebook][filter_steam_banners].
 [![Open In Colab][colab-badge]][filter_steam_banners]
+
+NB: original vertical images had already been filtered based on logo filtering, detailed below.
+The assumption here is that apps which could not be trusted for their logos should not be trusted for their vertical images.
 
 ### Logos (640x360)
 
