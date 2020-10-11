@@ -26,6 +26,14 @@ As of August 2020:
 -   original vertical images (300x450 resolution, currently available for 19049 out of 37813 games, i.e. 50% of games) in [`original_vertical_steam_banners.tar`](https://drive.google.com/file/d/1_a5GfVZYKD4oz-ctTyjSwu_pAhoBNwEm/view?usp=sharing),
 -   resized vertical images (256x256 resolution) in [`resized_vertical_steam_banners.tar`](https://drive.google.com/file/d/1-4IrxRMetTjCDQI60oMg4hs7NIcMy286/view?usp=sharing).
 
+As of October 2020, I have filtered Steam banners ([provided on Google Drive][banners-google-drive]) to ensure higher data quality:
+-   original vertical images (300x450 resolution, available for 16933 out of 46032 games, i.e. 37% of games) in [`original_vertical_steam_banners.tar`][banners-original],
+-   filtered vertical images (300x450 resolution, available for a subset of 14176 games) in [`filtered_vertical_steam_banners.tar`][banners-filtered],
+-   resized vertical images (256x256 resolution) in [`resized_vertical_steam_banners.tar`][banners-resized].
+
+Filtering of duplicates, outliers, etc. was performed with [this Google Colab notebook][filter_steam_banners]).
+[![Open In Colab][colab-badge]][filter_steam_banners]
+
 ### Logos (640x360)
 
 As of September 2020, a selection of logo images is shared [on Google Drive][logos-google-drive]:
@@ -51,8 +59,14 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 <!-- Definitions -->
 
 [download_steam_banners]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/download_steam_banners.ipynb>
+[filter_steam_banners]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/remove_duplicates.ipynb>
 
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
+
+[banners-google-drive]: <https://drive.google.com/drive/folders/1bThfr6YOwGr4EZSpv1FoqfhBfY3MfP_t?usp=sharing>
+[banners-original]: <https://drive.google.com/file/d/1e57CJogNSPAfw6CZTE1Ht7PvdsqKcGTq/view?usp=sharing>
+[banners-filtered]: <https://drive.google.com/file/d/1eI_Qp8DQlzQmXMtNuvbheGM1jCLPgfbr/view?usp=sharing>
+[banners-resized]: <https://drive.google.com/file/d/1-7Ni-8CnfdrgB9txGLMvVL_7EUCvgtpZ/view?usp=sharing>
 
 [logos-google-drive]: <https://drive.google.com/drive/folders/1_xVdBziq3uIRx53x_s28G7TvTcM5skA1?usp=sharing>
 [logos-original]: <https://drive.google.com/file/d/1wNGQyx2rL-mPmPcF8LbbvbFmqH9Zl5RT/view?usp=sharing>
