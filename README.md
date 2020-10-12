@@ -40,8 +40,8 @@ The assumption here is that apps which could not be trusted for their logos shou
 ### Logos (640x360)
 
 As of September 2020, a selection of logo images is shared [on Google Drive][logos-google-drive]:
--   original logo images (640x360 resolution, PNG files) in [`original_steam_logos_640x360.tar.gz`][logos-original],
--   resized logo images (256x256 resolution, PNG files) in [`resized_steam_logos_256x256.tar.gz`][logos-resized].
+-   original logo images (640x360 resolution, PNG files) in [`original_steam_logos_640x360.tar`][logos-original],
+-   resized logo images (256x256 resolution, PNG files) in [`resized_steam_logos_256x256.tar`][logos-resized].
 
 Initially, there are 25851 logos out of 45421 games, i.e. 57% of games.
 
@@ -77,5 +77,5 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 
 [logos-google-drive]: <https://drive.google.com/drive/folders/1_xVdBziq3uIRx53x_s28G7TvTcM5skA1?usp=sharing>
 [logos-original]: <https://drive.google.com/file/d/1wNGQyx2rL-mPmPcF8LbbvbFmqH9Zl5RT/view?usp=sharing>
-[logos-resized]: <https://drive.google.com/file/d/1wNfO2zYvn3u4DnobnE4JJDiQ_Of_Vwsb/view?usp=sharing>
+[logos-resized]: <https://drive.google.com/file/d/1-60mEzz4p7vm2kDGHBHIaakrrTe9NzGb/view?usp=sharing>
 [transparent-images]: <https://github.com/lucidrains/stylegan2-pytorch#bonus>
