@@ -29,7 +29,8 @@ As of August 2020:
 As of October 2020, I have filtered Steam banners ([provided on Google Drive][banners-google-drive]) to ensure higher data quality:
 -   original vertical images (300x450 resolution, available for 16933 out of 46032 games, i.e. 37% of games) in [`original_vertical_steam_banners.tar`][banners-original],
 -   filtered vertical images (300x450 resolution, available for a subset of 14176 games) in [`filtered_vertical_steam_banners.tar`][banners-filtered],
--   resized vertical images (256x256 resolution) in [`resized_vertical_steam_banners.tar`][banners-resized].
+-   resized vertical images (256x256 resolution, 14176 games) in [`resized_vertical_steam_banners.tar`][banners-resized],
+-   resized vertical images (256x256 resolution, 14000 games after a second filtering) in [`resized_vertical_steam_banners_14k.tar`][banners-resized-14k].
 
 Filtering of duplicates, outliers, etc. was performed with [this Google Colab notebook][filter_steam_banners] tailored for JPG files.
 [![Open In Colab][colab-badge]][filter_steam_banners]
@@ -74,6 +75,7 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 [banners-original]: <https://drive.google.com/file/d/1e57CJogNSPAfw6CZTE1Ht7PvdsqKcGTq/view?usp=sharing>
 [banners-filtered]: <https://drive.google.com/file/d/1eI_Qp8DQlzQmXMtNuvbheGM1jCLPgfbr/view?usp=sharing>
 [banners-resized]: <https://drive.google.com/file/d/1-7Ni-8CnfdrgB9txGLMvVL_7EUCvgtpZ/view?usp=sharing>
+[banners-resized-14k]: <https://drive.google.com/file/d/1v8wmPZTR0DxTvRIjDqduug1pJZo0sLP8/view?usp=sharing>
 
 [logos-google-drive]: <https://drive.google.com/drive/folders/1_xVdBziq3uIRx53x_s28G7TvTcM5skA1?usp=sharing>
 [logos-original]: <https://drive.google.com/file/d/1wNGQyx2rL-mPmPcF8LbbvbFmqH9Zl5RT/view?usp=sharing>
