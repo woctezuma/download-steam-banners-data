@@ -31,7 +31,7 @@ As of October 2020, I have filtered Steam banners ([provided on Google Drive][ba
 -   filtered vertical images (300x450 resolution, available for a subset of 14176 games) in [`filtered_vertical_steam_banners.tar`][banners-filtered],
 -   resized vertical images (256x256 resolution) in [`resized_vertical_steam_banners.tar`][banners-resized].
 
-Filtering of duplicates, outliers, etc. was performed with [this Google Colab notebook][filter_steam_banners].
+Filtering of duplicates, outliers, etc. was performed with [this Google Colab notebook][filter_steam_banners] tailored for JPG files.
 [![Open In Colab][colab-badge]][filter_steam_banners]
 
 NB: original vertical images had already been filtered based on logo filtering, detailed below.
@@ -51,6 +51,9 @@ My selection of logo images include 16133 logos, i.e. 62% of logos, after remova
 -   726 logos with 100% image space used by content (inconsistent with a logo),
 -   455 blank or duplicate logos.
 
+Filtering of duplicates, outliers, etc. was performed with [this Google Colab notebook][filter_steam_logos] tailored for PNG files.
+[![Open In Colab][colab-badge]][filter_steam_logos]
+
 **Caveat**: be careful if you use logos, as they are PNG files and feature [a transparent background][transparent-images].
 
 ## Screenshots
@@ -62,6 +65,7 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 <!-- Definitions -->
 
 [download_steam_banners]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/download_steam_banners.ipynb>
+[filter_steam_logos]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/remove_duplicates.ipynb>
 [filter_steam_banners]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/remove_duplicates.ipynb>
 
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
