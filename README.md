@@ -32,6 +32,12 @@ As of October 2020, I have filtered Steam banners ([provided on Google Drive][ba
 -   resized vertical images (256x256 resolution, 14176 games) in [`resized_vertical_steam_banners.tar`][banners-resized],
 -   resized vertical images (256x256 resolution, 14000 games after a second filtering) in [`resized_vertical_steam_banners_14k.tar`][banners-resized-14k].
 
+Filtering of banner images consists in the removal of:
+-   banners with uncommon bands (anything but RGB),
+-   banners with less than 100% image space used by content (to avoid learning [vignetting][vignetting-wiki]),
+-   duplicate banners,
+-   outliers with respect to file size (to try to have banners of similar visual complexity).
+
 Filtering of duplicates, outliers, etc. was performed with [this Google Colab notebook][filter_steam_banners] tailored for JPG files.
 [![Open In Colab][colab-badge]][filter_steam_banners]
 
@@ -81,3 +87,4 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 [logos-original]: <https://drive.google.com/file/d/1wNGQyx2rL-mPmPcF8LbbvbFmqH9Zl5RT/view?usp=sharing>
 [logos-resized]: <https://drive.google.com/file/d/1-60mEzz4p7vm2kDGHBHIaakrrTe9NzGb/view?usp=sharing>
 [transparent-images]: <https://github.com/lucidrains/stylegan2-pytorch#bonus>
+[vignetting-wiki]: <https://en.wikipedia.org/wiki/Vignetting>
