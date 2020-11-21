@@ -38,6 +38,10 @@ Filtering of banner images consists in the removal of:
 -   duplicate banners,
 -   outliers with respect to file size (to try to have banners of similar visual complexity).
 
+There was no case of:
+-   banners with uncommon resolution (anything but 300x450),
+-   blank banners.
+
 Filtering of duplicates, outliers, etc. was performed with [this Google Colab notebook][filter_steam_banners] tailored for JPG files.
 [![Open In Colab][colab-badge]][filter_steam_banners]
 
