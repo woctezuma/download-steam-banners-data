@@ -45,6 +45,9 @@ There was no case of:
 Filtering of duplicates, outliers, etc. was performed with [this Google Colab notebook][filter_steam_banners] tailored for JPG files.
 [![Open In Colab][colab-badge]][filter_steam_banners]
 
+If you wish to further filter banners based on the number of faces visible on the image, see [this notebook][colab-notebook-face-detection] in [`steam-face-detection`][steam-face-detection].
+[![Open In Colab][colab-badge]][colab-notebook-face-detection]
+
 NB: original vertical images had already been filtered based on logo filtering, detailed below.
 The assumption here is that apps which could not be trusted for their logos should not be trusted for their vertical images.
 
@@ -78,6 +81,9 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 [download_steam_banners]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/download_steam_banners.ipynb>
 [filter_steam_logos]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/remove_duplicates.ipynb>
 [filter_steam_banners]: <https://colab.research.google.com/github/woctezuma/steam-stylegan2-ada/blob/main/remove_duplicates.ipynb>
+
+[steam-face-detection]: <https://github.com/woctezuma/steam-face-detection>
+[colab-notebook-face-detection]: <https://colab.research.google.com/github/woctezuma/steam-face-detection/blob/main/detect_faces_on_steam_banners.ipynb>
 
 [colab-badge]: <https://colab.research.google.com/assets/colab-badge.svg>
 
