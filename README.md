@@ -47,6 +47,7 @@ Filtering of duplicates, outliers, etc. was performed with [this Google Colab no
 
 If you wish to further filter banners based on the number of faces visible on the image, see [this notebook][colab-notebook-face-detection] in [`steam-face-detection`][steam-face-detection].
 [![Open In Colab][colab-badge]][colab-notebook-face-detection]
+This is how I built [the `Steam-OneFace` dataset][steam-oneface-dataset].
 
 NB: original vertical images had already been filtered based on logo filtering, detailed below.
 The assumption here is that apps which could not be trusted for their logos should not be trusted for their vertical images.
@@ -98,3 +99,4 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 [logos-resized]: <https://drive.google.com/file/d/1-60mEzz4p7vm2kDGHBHIaakrrTe9NzGb/view?usp=sharing>
 [transparent-images]: <https://github.com/lucidrains/stylegan2-pytorch#bonus>
 [vignetting-wiki]: <https://en.wikipedia.org/wiki/Vignetting>
+[steam-oneface-dataset]: <https://github.com/woctezuma/steam-filtered-image-data#steam-oneface-dataset>
