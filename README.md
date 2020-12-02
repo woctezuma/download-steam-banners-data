@@ -77,6 +77,11 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 -   original images (inconsistent resolution, at most 600x338),
 -   center-cropped and resized images (128x128 resolution).
 
+## References:
+
+-   [Steam Store/Library Asset Specs][steam-asset-specs]
+-   [Steam Points Shop Item Specs][points-shop-specs]
+
 <!-- Definitions -->
 
 [download_steam_banners]: <https://colab.research.google.com/github/woctezuma/google-colab/blob/master/download_steam_banners.ipynb>
@@ -100,3 +105,6 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 [transparent-images]: <https://github.com/lucidrains/stylegan2-pytorch#bonus>
 [vignetting-wiki]: <https://en.wikipedia.org/wiki/Vignetting>
 [steam-oneface-dataset]: <https://github.com/woctezuma/steam-filtered-image-data#steam-oneface-dataset>
+
+[steam-asset-specs]: <https://partner.steamgames.com/doc/store/assets>
+[points-shop-specs]: <https://partner.steamgames.com/doc/marketing/pointsshopitems>
