@@ -52,6 +52,9 @@ This is how I built [the `Steam-OneFace` dataset][steam-oneface-dataset].
 NB: original vertical images had already been filtered based on logo filtering, detailed below.
 The assumption here is that apps which could not be trusted for their logos should not be trusted for their vertical images.
 
+As of January 9, 2021, [on Google Drive][gdrive-banner-data]:
+-   original vertical images (300x450 resolution), available for 29982 out of 48792 games, i.e. 61.4% of games, in `original_vertical_steam_banners.tar` (1.5 GB)
+
 ### Logos (640x360)
 
 As of September 2020, a selection of logo images is shared [on Google Drive][logos-google-drive]:
