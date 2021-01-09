@@ -102,6 +102,8 @@ Steam **screenshots** can be found in [`download-steam-screenshots-data`](https:
 [banners-resized]: <https://drive.google.com/file/d/1-7Ni-8CnfdrgB9txGLMvVL_7EUCvgtpZ/view?usp=sharing>
 [banners-resized-14k]: <https://drive.google.com/file/d/1v8wmPZTR0DxTvRIjDqduug1pJZo0sLP8/view?usp=sharing>
 
+[gdrive-banner-data]: <https://drive.google.com/drive/folders/1BU8R1JMdzOqc4pzEkpQY6w6FuaretxUH>
+
 [logos-google-drive]: <https://drive.google.com/drive/folders/1_xVdBziq3uIRx53x_s28G7TvTcM5skA1?usp=sharing>
 [logos-original]: <https://drive.google.com/file/d/1wNGQyx2rL-mPmPcF8LbbvbFmqH9Zl5RT/view?usp=sharing>
 [logos-resized]: <https://drive.google.com/file/d/1-60mEzz4p7vm2kDGHBHIaakrrTe9NzGb/view?usp=sharing>
